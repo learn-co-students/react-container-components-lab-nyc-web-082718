@@ -31,6 +31,11 @@ describe('<MovieReviews />', () => {
   });
 
   it('should render all the reviews', () => {
+    console.log(wrapper.find('.review'))
+    console.log(wrapper)
+    console.log(wrapper.hasClass('review-list'))
+    console.log(wrapper.hasClass('review'))
+    console.log('AGSYUGAYUGFUEFGUQ')
     expect(wrapper.find('.review').length).to.equal(testReviews.length);
   });
 });
